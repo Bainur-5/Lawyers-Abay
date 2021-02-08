@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align:  center;
+}
+/* О нас */
+.bg_O_nas{
+        background:  url('../img/gold-brass-balance-scale-placed-on-the-vintage-books-and-wood-table-with-gray-background_42702-116.jpg') center/cover no-repeat fixed;
+        overflow: hidden;
+}
+.O_nas{
+    padding: 7% 10%;
+    height: auto;   
+    background-color: rgba(255, 255, 255, 0.705);
+
+}
+.eje{
+    text-align: center;
+    padding: auto;
+    margin-top: 7%;
+}
+.eje a{
+    padding: 2% 5.2%;
+    margin: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 141, 206);
+    transition: .5s;
+    font-size: 20px;
+}
+.eje a:hover{
+    background-color: rgb(0, 107, 156);
+    text-decoration: none;
+    color: white;
+}
+.o_nas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.o_nas p {
+    line-height: 1.7;
+    margin: 0;
+}
+.o_nas p samp{
+    color: blue;
+    font-size: 130%;
+}
+
+/* Услуги */
+.gg_uslugin{
+    padding: 3% 0;
+}
+
+.uslugi_container{
+    margin: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.uslugi{
+    width: 30%;
+    height: 45vh;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    margin: 2% 0;
+}
+.cont_text_usl{
+    margin-bottom: 5%;
+    text-align: center;
+}
+.cont_text_usl h3{
+    color: rgb(0, 141, 206);
+    margin: 2% 0;
+    text-align: center;
+}
+.cont_text_usl p{
+    text-align: left;
+    line-height: 23px;
+    margin: 5% 0 10% 0;
+}
+.cont_text_usl  a {
+    padding:3% ;
+    border:1px solid rgb(0, 141, 206);
+    color: rgb(0, 141, 206);
+    text-decoration: none;
+}
+/*  */
+.swip{
+    padding: 3% 0;
+}
+/*  */
+
+.contact_container{
+    padding: 4% 5%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+    
+}
+.contact{
+    width: 40%;
+}
+.contact1{
+    border-top-right-radius: 5px;
+    padding: 2% 3%;
+}
+.contact1  p{
+    margin: 0;
+}
+.card{
+    width: 100%;
+    height: 63.3%;
+}
+.card iframe{
+    width: 100%;
+    height: 100%;
+}
+.regis{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 65%;
+}
+.nn{
+    width: 100%;
+}
+.nn input{
+    padding: 10px;
+    width: 100%;
+    margin: 2% 0;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128);
+    outline: 0;
+}
+.prb{
+    width: 100%;
+}
+.prb select{
+    outline: 0;
+    width: 100%;
+    padding: 10px 1%;
+    margin: 2% 0;
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 128);
+
+}
+.coment_cont{
+    width: 100%;
+}
+.coment_cont textarea{
+    width: 100%;
+    padding: 2%;
+    border: 1px solid rgb(188, 202, 209);
+    outline: 0;
+}
+form{
+    justify-content: center;
+}
+form a{
+    padding: 2% 3%;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 141, 206);
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2% 5%;
+}
+.contact2{
+    color: rgb(177, 177, 177);
+}
+.contact2 hr{
+    border: 1px solid rgb(177, 177, 177);
+}
+.icon{
+    width: 30%;
+    color:  rgb(177, 177, 177);
+}
+.icon a{
+    text-decoration: none;
+    color: rgb(177, 177, 177);
+    font-size: 150%;
+    margin: 0 2%;
+}
+@media screen and (max-width:970px){
+    .uslugi{
+        margin: 3% 0;
+    }
+}
+@media screen and (max-width:910px){
+    .uslugi p{
+        font-size: 80%;
+    }
+    .uslugi h3{
+        font-size: 100%;
+    }
+    .uslugi a{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:864px){
+    .uslugi_container{
+        flex-wrap: wrap;
+    }
+    .contact{
+        width: 100%;
+    }
+    .card{
+        height: 45vh;
+    }
+    .regis{
+        width: 100%;
+    }
+    .coment_cont textarea{ 
+        height: 40vh;
+    }
+    .o_nas p{
+        font-size: 100%;
+    }    
+    .title{
+        font-size: 130%;
+    }
+}
+@media screen and (max-width:730px){
+    .uslugi_container{
+        padding: 0 10%;
+    }
+    .uslugi{
+        width: 40%;
+        margin: 3% 0;
+    }
+    .eje a{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:672px){
+    .uslugi{
+        margin: 5% 0;
+    }
+    .uslugi_container{
+        padding: 2% 5%;
+    }
+    .O_nas{
+        padding: 7% 5%;
+    }
+}
+@media screen and (max-width:600px){
+    
+    .regis form{
+        width: 100%;
+    }
+    .uslugi{
+        margin: 7.9% 0;
+    }
+    .o_nas p {
+        font-size: 80%;
+    }
+    .O_nas{
+        padding: 7% 2%;
+    }
+}
+@media screen and (max-width:560px){
+    .uslugi{
+        margin: 15% auto;
+    }
+    .uslugi_container{
+        padding: 0;
+    }
+    .eje a{
+        font-size: 80%;
+    }
+}
+@media screen and (max-width:490px){
+    .uslugi{
+        width: 100%;
+        margin: 2% 0;
+    }
+}

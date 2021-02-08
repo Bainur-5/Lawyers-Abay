@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+body{
+    margin: 0;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 12.5%;
+    z-index: 3 !important;
+}
+.navbar-brand img{
+    width: 200px !important;
+}
+.navbar-brand{
+    margin-right: 20% !important;
+}
+.russia_img img{
+    width: 30px;
+}
+.russia_img{
+    padding: 1px 6px !important;
+}
+.kyrgyzstan_img{
+    width: 30px;
+}
+.navbar-nav li a:hover{
+    color: rgb(0,141,206) !important;
+}
+.navbar-nav li a{
+    font-size: 18px !important;
+}
+.nav-item{
+    margin-right: 5% !important;
+}
+.main_link:visited{
+    color: rgb(0,141,206) !important;
+}
+.main_content{
+    height: 100vh;
+    position: relative !important;
+    background: url('../img/citybg.jpg') center / cover no-repeat;
+    z-index: 1 !important; 
+    width: 100%;
+}
+.make_darker{
+    height: 100vh;
+    z-index: 2 !important;
+    background-color: rgba(0,0,0,0.6);
+}
+.text_main_center{
+    font-size: 40px;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin-top: 10%;
+    font-weight: 200;
+}
+.nav-link{
+    font-family: 'Roboto Condensed', sans-serif !important;
+    width: 100px !important;
+    width: 100%;
+}
+
+@media screen and (max-width: 990px){
+    .navbar-nav li a{
+        font-size: 100% !important;
+    }   
+    .make_darker p{
+        font-size: 150%;
+    }
+}
